@@ -19,10 +19,10 @@ Find the 3rd to 7th highest patient satisfaction scores from the patients table,
 
 ## ✅ [SQL Solution](https://github.com/JayaraniArunachalam/Day_2_SQL_Filtering_data_with_where_clause/blob/main/DAY_2_MYSQL_IDC_WHERE_jaya.sql)
   ``` MYSQL
-SELECT week, service, patients_refused , patients_request 
-FROM services_weekly
-ORDER BY patients_refused DESC
-LIMIT 5;
+SELECT patient_id, name, service, satisfaction AS satisfaction_score
+FROM patients 
+ORDER BY satisfaction_score DESC 
+LIMIT 5 OFFSET 2;
 ```
 ## 📊 Result:
 👉[Result / Output](https://github.com/JayaraniArunachalam/Day_4_LIMIT_and_OFFSET/blob/main/DAY_4_MYSQL_IDC_LIMIT_OFFSET.sql)
