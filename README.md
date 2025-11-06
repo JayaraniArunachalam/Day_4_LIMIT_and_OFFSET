@@ -25,7 +25,7 @@ ORDER BY satisfaction_score DESC
 LIMIT 5 OFFSET 2;
 ```
 ## 📊 Result:
-👉[Result / Output](https://github.com/JayaraniArunachalam/Day_4_LIMIT_and_OFFSET/blob/main/DAY_4_MYSQL_IDC_LIMIT_OFFSET.sql)
+👉[Result / Output](https://github.com/JayaraniArunachalam/Day_4_LIMIT_and_OFFSET/blob/main/Day%204%20LIMIT%20OFFSET%20op.png)
 
 ## 💡 Key Learnings- Conceptual Focus
 - Pagination helps break large datasets into smaller, manageable chunks — just like browsing multiple pages on an e-commerce site.
