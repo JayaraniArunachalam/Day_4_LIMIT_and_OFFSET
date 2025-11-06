@@ -17,7 +17,7 @@ Columns in the dataset: patient_id,	name,	age,	arrival_date,	departure_date,	ser
 ## 📅Challenge: Day 4 
 Find the 3rd to 7th highest patient satisfaction scores from the patients table, showing patient_id, name, service, and satisfaction. Display only these 5 records.
 
-## ✅ [SQL Solution](https://github.com/JayaraniArunachalam/Day_2_SQL_Filtering_data_with_where_clause/blob/main/DAY_2_MYSQL_IDC_WHERE_jaya.sql)
+## ✅ [SQL Solution](https://github.com/JayaraniArunachalam/Day_4_LIMIT_and_OFFSET/blob/main/DAY_4_MYSQL_IDC_LIMIT_OFFSET.sql)
   ``` MYSQL
 SELECT patient_id, name, service, satisfaction AS satisfaction_score
 FROM patients 
